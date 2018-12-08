@@ -1,0 +1,14 @@
+
+
+##\u7AEF\u53E3\u53F7
+server:
+  port: 8088
+
+##es\u5730\u5740
+
+elasticsearch:
+  cluster-nodes: 127.0.0.1:9300,10.151.25.128:9300
+  #\u7D22\u5F15\u540D\u79F0\uFF08\u53EF\u4EE5\u7406\u89E3\u6210\u5E93\u540D\uFF09
+  indexName: elasticsearch
+  #\u7C7B\u578B\uFF08\u53EF\u4EE5\u7406\u89E3\u6210\u8868\u540D\uFF09
+  type: blog
